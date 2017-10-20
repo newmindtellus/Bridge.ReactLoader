@@ -1,0 +1,17 @@
+{
+  "output": "$(OutDir)/",
+  "cleanOutputFolderBeforeBuild": true,
+  "fileName": "ReactLibraryDebugBuild.js",
+  "resources": [ /* Note: We don't actually need any content from DebugBuild.cs - it uses [External] and [Template] and only exists so that MsBuild sees a reference to the assembly */
+    {
+      "output": "./",
+      "name": "react-16.0.0.development.js",
+      "files": [ "react-16.0.0.development.js" ]
+    },
+    {
+      "output": "./",
+      "name": "react-dom-16.0.0.development.js",
+      "files": [ "react-dom-16.0.0.development.js" ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet Package CSharp Files", "NuGet Package CSharp Files", "{C2B42B7F-4C53-4AD4-B500-FD2B3DB26FD2}"
+	ProjectSection(SolutionItems) = preProject
+		ReactLoader.cs = ReactLoader.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.ReactLoader.Debug", "Bridge.ReactLoader.Debug\Bridge.ReactLoader.Debug.csproj", "{A3F7FD82-001E-4FCA-B8D2-B8034906A4CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.ReactLoader.Release", "Bridge.ReactLoader.Release\Bridge.ReactLoader.Release.csproj", "{4D3B8329-3F13-451D-8164-B7650AD697BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{7B1B7F23-34AD-4667-9AC7-3067FEE32AF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3F7FD82-001E-4FCA-B8D2-B8034906A4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F7FD82-001E-4FCA-B8D2-B8034906A4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F7FD82-001E-4FCA-B8D2-B8034906A4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F7FD82-001E-4FCA-B8D2-B8034906A4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3B8329-3F13-451D-8164-B7650AD697BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3B8329-3F13-451D-8164-B7650AD697BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3B8329-3F13-451D-8164-B7650AD697BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3B8329-3F13-451D-8164-B7650AD697BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1B7F23-34AD-4667-9AC7-3067FEE32AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1B7F23-34AD-4667-9AC7-3067FEE32AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1B7F23-34AD-4667-9AC7-3067FEE32AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1B7F23-34AD-4667-9AC7-3067FEE32AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
