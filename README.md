@@ -1,6 +1,4 @@
 # Bridge.ReactLoader
-A NuGet package to load the React library into a Bridge application (Dev/Production library version depending upon Debug/Release project configuration).
-
 The [Bridge.React](https://github.com/ProductiveRage/Bridge.React) bindings ([NuGet](https://www.nuget.org/packages/Bridge.React)) provide Bridge bindings to the React library but that package does not load the React library itself, it leaves that responsibility to the application that uses the Bridge.React package. Previously, the simplest way to load the React library has been to emit additional script tags in the html that renders the application but that has some problems - amongst which is the fact that it is a manual step to change from using the "Dev" version of the library (while developing the application) to using the "Production" version (for when the application is published).
 
 This NuGet package will include the React library scripts directly to your project - adding the Dev version when the project is built using the Debug configuration and adding the Production version otherwise.
