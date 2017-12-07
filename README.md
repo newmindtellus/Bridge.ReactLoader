@@ -10,7 +10,7 @@ To see this working, starting from a blank slate, do the following:
 1. Create a new solution that contains a single C# Class Library project called "ReactExample"
 1. Add the NuGet package "Bridge" (this configures the project to emit JavaScript and a html "scaffolding" page, using a default "bridge.json" configuration file that is added to the project)
 1. Add the NuGet package "Bridge.ReactLoader" (note that this will add a file "ReactLoader.cs" to your project - this is necessary for the package to work and to load the Dev / Production build appropriate for your project's configuration, so don't edit the file manually or delete it)
-1. Add the NuGet package "Bride.React" (which provides C# bindings to the React library)
+1. Add the NuGet package "Bridge.React" (which provides C# bindings to the React library)
 1. Edit the "Class1.cs" file that was created as part of the initial Class Library project so that it has the content below
 1. Build the project and go to the output folder (the default bridge.json configuration will write files to "bin/Debug/bridge" or "bin/Release/bridge") where you will see an auto-generated index.html; if you open this in the browser then you will see the "This was rendered by React!" message
 
