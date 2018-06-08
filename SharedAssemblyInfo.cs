@@ -4,8 +4,8 @@
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Bridge.ReactLoader")]
-[assembly: AssemblyCopyright("Copyright © ProductiveRage 2017")]
+[assembly: AssemblyCopyright("Copyright © ProductiveRage 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-[assembly: AssemblyVersion("16.0.1")]
+[assembly: AssemblyVersion("16.4.1")]

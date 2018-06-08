@@ -5,13 +5,13 @@
   "resources": [ /* Note: We don't actually need any content from DebugBuild.cs - it uses [External] and [Template] and only exists so that MsBuild sees a reference to the assembly */
     {
       "output": "./",
-      "name": "react-16.0.0.development.js",
-      "files": [ "react-16.0.0.development.js" ]
+      "name": "react-16.4.0.development.js",
+      "files": [ "react-16.4.0.development.js" ]
     },
     {
       "output": "./",
-      "name": "react-dom-16.0.0.development.js",
-      "files": [ "react-dom-16.0.0.development.js" ]
+      "name": "react-dom-16.4.0.development.js",
+      "files": [ "react-dom-16.4.0.development.js" ]
     }
   ]
 }

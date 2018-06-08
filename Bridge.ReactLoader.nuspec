@@ -3,7 +3,7 @@
   <metadata>
     <id>Bridge.ReactLoader</id>
     <title>Bridge.ReactLoader</title>
-    <version>16.0.1</version>
+    <version>16.4.1</version>
     <authors>ProductiveRage</authors>
     <owners>ProductiveRage</owners>
     <licenseUrl>https://github.com/ProductiveRage/Bridge.ReactLoader/blob/master/LICENSE</licenseUrl>
@@ -11,7 +11,7 @@
     <iconUrl>https://secure.gravatar.com/avatar/6a1f781d4d5e2d50dcff04f8f049767a?s=200</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A package to load the React library into a Bridge.NET application</description>
-    <copyright>Copyright 2017 ProductiveRage</copyright>
+    <copyright>Copyright 2018 ProductiveRage</copyright>
     <tags>C# bridge bridge.net react react-js</tags>
     <dependencies>
       <dependency id="Bridge.Min" version="16.1.0" />
