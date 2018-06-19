@@ -8,4 +8,4 @@
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-[assembly: AssemblyVersion("16.4.1")]
+[assembly: AssemblyVersion("16.4.2")]
